@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html class="html" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AT Data Journalism Portfolio</title>
+    <meta name="description" content="A portfolio page.">
+    <link rel="stylesheet" href="./style/stylesforlandingpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+    <style>
+        .container {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        .description-block {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin: 10px 0;
+        }
+
+        .pdf-block embed {
+            width: 90%;
+            height: 400px;
+            margin-top: 10px;
+        }
+
+        .index-list {
+            margin-top: 20px;
+            font-size: 18px;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .index-list li {
+            margin-bottom: 10px;
+        }
+
+        .index-list a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .git-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .git1,
+        .git2 {
+            width: 45%;
+        }
+
+        .card-image img {
+            width: 100%;
+        }
+
+        .tableau-link {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="nav-container">
+        <div class="burger">
+            <div class="burger-line top"></div>
+            <div class="burger-line middle"></div>
+            <div class="burger-line bottom"></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">About & Contact</a></li>
+                <li><a href="./investigative.html">Investigative</a></li>
+                <li><a href="./writing.html">Long-form narratives</a></li>
+                <li><a href="./data.html">Data</a></li>
+                <li><a href="./nw.html">Thesis</a></li>
+                <li><a href="./others.html">Others</a></li>
+                <li><a href="./photo.html">Photos</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <h1>Data reporting</h1>
+
+    <ul class="index-list">
+        <li><a href="#brightline_speeds">Brightline train speeds through Treasure Coast and braking distances</a></li>
+        <li><a href="#brightline_riders">Brightline Miami to Orlando riders increased in January, report says</a></li>
+        <li><a href="#attom_index">ATTOM affordability index for Stuart, Vero Beach, Fort Pierce, PSL</a></li>
+        <li><a href="#protests_jk">Peaceful Protests in Jammu and Kashmir peaked in 2021</a></li>
+        <li><a href="#rice_production">Rice production in Punjab declining</a></li>
+    </ul>
+
+    <div class="container" id="brightline_speeds">
+        <div class="description-block">
+            Brightline train speeds through Treasure Coast and braking distances
+        </div>
+        <div class="pdf-block">
+            <embed src="./clips/data/Brightline train speeds through Treasure Coast and braking distances.pdf" type="application/pdf" />
+        </div>
+        <div class="tableau-link">
+            <a href="https://public.tableau.com/app/profile/ananya.tiwari5704/vizzes" target="_blank">View my Tableau profile</a>
+        </div>
+    </div>
+
+    <div class="container" id="brightline_riders">
+        <div class="description-block">
+            Brightline Miami to Orlando riders increased in January, report says
+        </div>
+        <div class="pdf-block">
+            <embed src="./clips/data/Brightline Miami to Orlando riders increased in January, report says.pdf" type="application/pdf" />
+        </div>
+    </div>
+
+    <div class="container" id="attom_index">
+        <div class="description-block">
+            ATTOM affordability index for Stuart, Vero Beach, Fort Pierce, PSL
+        </div>
+        <div class="pdf-block">
+            <embed src="./clips/data/ATTOM affordability index for Stuart, Vero Beach, Fort Pierce, PSL.pdf" type="application/pdf" />
+        </div>
+    </div>
+
+    <article>
+        <div class="git-container" id="rice_production">
+            <div class="git1">
+                <a href="https://github.com/ananyatiwari14/J233-Data-Project_Ananya-Tiwari" target="_blank" rel="noopener noreferrer">
+                    <div class="card-image">
+                        <img src="./images/amritsargit1.png" alt="Map of protests in Jammu and Kashmir">
+                    </div>
+                    <div class="card-content">
+                        <h3>Analysing agricultural production in Indian states</h3>
+                </a>
+                <p>Seeing the crop production trends in various states of India, especially Punjab, over the years, using Python, Altair and Matplotlib. This was done for a UC Berkeley school project.</p>
+            </div>
+        </div>
+
+        <div class="git2" id="protests_jk">
+            <a href="https://github.com/ananyatiwari14/DATAPROJECT" target="_blank" rel="noopener noreferrer">
+                <div class="card-image">
+                    <img src="./images/git2map.jpg" alt="Map of protests in Jammu and Kashmir">
+                </div>
+                <div class="card-content">
+                    <h3>Protest activity in Jammu & Kashmir, India</h3>
+            </a>
+            <p>Analyzing protest activity in India over the years, using Google sheets, Datawrapper and Infogram. This was done for a UC Berkeley school project.</p>
+        </div>
+    </div>
+    </article>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://twitter.com/Ananyati"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/ananya.c.tiwari/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/theananyatiwari/"><i class="fa fa-linkedin"></i></a>
+            <p><a href="mailto:ananyatiwarijournalism@gmail.com">Email me</a> here.</p>
+        </div>
+        <p class="copyright"> &copy; 2024 Ananya Tiwari. All rights reserved. </p>
+    </footer>
+
+    <script src="./js/datajs.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html class="html" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AT Investigative Work</title>
+    <meta name="description" content="A portfolio page.">
+    <link rel="stylesheet" href="./style/stylesforlandingpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+    <script>
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://mozilla.github.io/pdf.js/build/pdf.worker.js';
+    </script>
+    <style>
+        .container {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        .description-block {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin: 10px 0;
+        }
+
+        .pdf-block embed {
+            width: 90%;
+            height: 400px;
+            margin-top: 10px;
+        }
+
+        .index-list {
+            margin-top: 20px;
+            font-size: 18px;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .index-list li {
+            margin-bottom: 10px;
+        }
+
+        .index-list a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav-container">
+        <div class="burger">
+            <div class="burger-line top"></div>
+            <div class="burger-line middle"></div>
+            <div class="burger-line bottom"></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">About & Contact</a></li>
+                <li><a href="./investigative.html">Investigative</a></li>
+                <li><a href="./writing.html">Long-form narratives</a></li>
+                <li><a href="./data.html">Data</a></li>
+                <li><a href="./nw.html">Thesis</a></li>
+                <li><a href="./others.html">Others</a></li>
+                <li><a href="./photo.html">Photos</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <h1>Investigative Reporting</h1>
+
+    <ul class="index-list">
+        <li><a href="#belvedere_terminals">Belvedere Terminals Fort Pierce fuel farm sparks concerns</a></li>
+        <li><a href="#mark_montalto">Port St. Lucie Properties owner Mark Montalto charged with grand theft</a></li>
+        <li><a href="#christian_lamar">AZ House candidate Christian Lamar has domestic violence conviction</a></li>
+        <li><a href="#scott_podeyn">Arizona House candidate Scott Podeyn had domestic violence arrest</a></li>
+        <li><a href="#insufficient_funds">Insufficient funds hit Delhi govt’s solar scheme for resident welfare association</a></li>
+        <li><a href="#el_cerrito">El Cerrito and other Contra Costa libraries could see upgrades and expanded hours</a></li>
+    </ul>
+
+    <div class="container" id="belvedere_terminals">
+        <div class="description-block">
+            Belvedere Terminals Fort Pierce fuel farm sparks concerns
+        </div>
+        <div class="pdf-block">
+            <embed src="./clips/investigative/Belvedere Terminals Fort Pierce fuel farm sparks concerns.pdf" type="application/pdf" />
+        </div>
+    </div>
+
+    <div class="container" id="mark_montalto">
+        <div class="description-block">
+            Port St. Lucie Properties owner Mark Montalto charged with grand theft
+        </div>
+        <div class="pdf-block">
+            <embed src="./clips/investigative/Port St. Lucie Properties owner Mark Montalto charged with grand theft.pdf" type="application/pdf" />
+        </div>
+    </div>
+
+    <div class="container" id="christian_lamar">
+        <div class="description-block">
+            AZ House candidate Christian Lamar has domestic violence conviction
+        </div>
+        <div class="pdf-block">
+            <embed src="./clips/investigative/AZ House candidate Christian Lamar has domestic violence conviction.pdf" type="application/pdf" />
+        </div>
+    </div>
+
+    <div class="container" id="scott_podeyn">
+        <div class="description-block">
+            Arizona House candidate Scott Podeyn had domestic violence arrest
+        </div>
+        <div class="pdf-block">
+            <embed src="./clips/investigative/Arizona House candidate Scott Podeyn had domestic violence arrest.pdf" type="application/pdf" />
+        </div>
+    </div>
+
+    <div class="container" id="insufficient_funds">
+        <div class="description-block">
+            Insufficient funds hit Delhi govt’s solar scheme for resident welfare association
+        </div>
+        <div class="pdf-block">
+            <embed src="./clips/investigative/insufficient funds.pdf" type="application/pdf" />
+        </div>
+    </div>
+
+    <div class="container" id="el_cerrito">
+        <div class="description-block">
+            El Cerrito and other Contra Costa libraries could see upgrades and expanded hours
+        </div>
+        <div class="pdf-block">
+            <embed src="./clips/investigative/El Cerrito and other Contra Costa libraries could see upgrades and expanded hours - Richmond Confidential.pdf" type="application/pdf" />
+        </div>
+    </div>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://twitter.com/Ananyati"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/ananya.c.tiwari/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/theananyatiwari/"><i class="fa fa-linkedin"></i></a>
+            <p><a href="mailto:ananyatiwarijournalism@gmail.com">Email me</a> here.</p>
+        </div>
+        <p class="copyright"> &copy; 2024 Ananya Tiwari. All rights reserved. </p>
+    </footer>
+
+    <script src="./js/aboutjs.js"></script>
+</body>
+
+</html>
